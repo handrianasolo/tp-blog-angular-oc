@@ -17,16 +17,13 @@ export class PostListItemComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  /**
-     * Incrémentation du compteur "loversIt" du post
-     */
-    onLikeIt(): void {
+
+  //Incrémentation du compteur "loversIt" du post
+  onLikeIt(): void {
       this.loveIts++;
   }
 
-  /**
-   * Décrémentation du compteur "loversIt" du post
-   */
+  // Décrémentation du compteur "loversIt" du post
   onDislikeIt(): void {
       this.loveIts--;
   }
