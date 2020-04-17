@@ -1,9 +1,10 @@
-<h2>All posts</h2>
-<hr>
-<app-post-list *ngFor="let post of posts"
-                        [title]="post.title"
-                        [content]="post.content"
-                        [loveIts]="post.loveIts"
-                        [created_at]="post.created_at">
-</app-post-list>
+<div class="container">
+    <div class="row">
+        <h2>Posts</h2>
+            <div class="col-xs-8">
+                <app-post-list [posts]="posts"></app-post-list>
+            </div>
+    </div>
+</div>
+        
 
