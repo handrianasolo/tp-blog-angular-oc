@@ -1,6 +1,6 @@
 # tp-blog-angular-oc
 # mini-blog version 1
-Création d'une application simple de type blog. elle va afficher les posts du blog, et chaque post aura un bouton permettant de "love it" ou de "don't love it".
+Création d'une application simple de type blog. Elle va afficher les posts du blog, et chaque post aura un bouton permettant de "love it" ou de "don't love it".
 
 # structures
   - AppComponent contiendra l'array des posts, et il le passera à un component PostListComponent,
