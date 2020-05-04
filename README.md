@@ -8,4 +8,4 @@ Création d'une application simple de type blog. Elle va afficher les posts du b
   - PostListItemComponent auront des boutons qui permettent d'augmenter et de diminuer le nombre de loveIts — cette modification aura uniquement un effet sur le component, et n'a pas besoin d'être remontée au component parent.
 
 # screenshot
-![alt tag](https://github.com/handrianasolo/tp-blog-angular-oc/blob/master/capture_ecran_accueil.PNG)
+![alt tag](https://github.com/handrianasolo/tp-blog-angular-oc/blob/master/mockup.PNG)
